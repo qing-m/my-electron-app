@@ -1,7 +1,6 @@
 const { app, BrowserWindow, ipcMain } = require("electron");
 const path = require("node:path");
 // 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
-console.log("Hello from Electron 👋");
 
 const createWindow = () => {
     const win = new BrowserWindow({
